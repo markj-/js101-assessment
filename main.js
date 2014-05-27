@@ -66,6 +66,8 @@
 
   /* 4.7 Change the name of the first member in your 'memberList' */
 
+  /* 4.8 console.log the index that your name is at in the memberList array */
+
 
   /**
   * 5. Objects
@@ -73,54 +75,45 @@
 
   /* 5.1 Create a variable called 'me' as an object containing two properties, 'name' and 'age' */
 
-  /* 5.2 Create a variable called 'members' as an array of objects for each member of JS101. Structure it like the object from task 4.1 */
+  /* 5.2 Add a new property of your choice to your 'me' Object */
 
-  /* 5.3 Add a new property of your choice to your 'me' Object */
+  /* 5.3 Delete the 'age' property of your 'me' Object
 
-  /* 5.4 Delete the 'age' property of your 'me' Object
+  /* 5.4 Change the 'name' property of your 'me' Object
 
-  /* 5.5 Change the 'name' property of your 'me' Object
+  /* 5.5 console.log the 'name' property of your 'me' object
 
-  /* 5.6 console.log the 'name' property of your 'me' object
-
-
-  /**
-  * 6. Functions
-  **/
+  /* 5.6 Create a variable called 'members' as an array of objects for each member of JS101. Structure it like the object from task 5.1 */
 
 
   /**
-  * 7. Scope
+  * 6. Scope
   **/
 
-  /* 7.1 Intentionally create a global variable called x. You should be able to console.log window.x and get the value of x if this is done correctly */
+  /* 6.1 Intentionally create a global variable called x. You should be able to console.log window.x and get the value of x if this is done correctly */
 
-  /* 7.2 Create an IIFE below and create one variable called 'inner' inside it with any value. Prove that this can only be accessed inside the IIFE using console.log. Why is this? */
+  /* 6.2 Create an IIFE below and create one variable called 'inner' inside it with any value. Prove that this can only be accessed inside the IIFE using console.log. Why is this? */
 
   // ANSWER WHY HERE:
 
 
   /**
-  * 8. DOM
+  * 7. DOM
   **/
 
   // There is a div in index.html to use in this section
 
-  /* 8.1 Select the div using its id */
+  /* 7.1 Select the div using its id */
 
-  /* 8.2 Select the div using its tag name */
+  /* 7.2 Select the div using its tag name */
 
-  /* 8.3 Select the div using the 'foo' part its class name */
+  /* 7.3 Select the div using the 'foo' part of its class name */
 
-  /* 8.4 Add a class of 'my-class' to the div */
+  /* 7.4 Add a class of 'my-class' to the div */
 
-  /* 8.5 Remove the class 'pugpig' from the div */
+  /* 7.5 Remove the class 'pugpig' from the div */
 
-  /* Check if the div has a class of bar */
+  /* 7.6 Check if the div has a class of bar */
 
-
-  /**
-  * 9. Event Listeners
-  **/
 
 })();
