@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      div,
+      form {
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .click {
+        background: lightsalmon;
+      }
+      .click-delete {
+        background: beige;
+      }
+      .mouse-move {
+        background: pink;
+      }
+      form {
+        background: lightskyblue;
+      }
+      form div {
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="click">
+      Click me
+    </div>
+
+    <div class="click-delete">
+      Click me then delete
+    </div>
+
+    <div class="mouse-move">
+      Mouse move
+    </div>
+
+    <div>
+      <a href="http://pugpig.com">Click me</a>
+    </div>
+
+    <form action="">
+      <div>
+        Current input value: <span class="input-value"></span>
+      </div>
+      <label for="type">Type into me</label><input type="text" id="type">
+    </form>
+
+    <script src="main2.js"></script>
+  </body>
+</html>
